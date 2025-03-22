@@ -1,0 +1,56 @@
+:root {
+     --bg-dark: #1E1E1E;
+     --primary-pink: #FF5E9F;
+     --secondary-purple: #8B5CF6;
+     --text-light: #FFFFFF;
+     --text-muted: #A0A0A0;
+     --chat-bubble-sent: #A855F7;
+     --chat-bubble-received: #333333;
+     --main-bg:var(--chat-bubble-received);
+     --err:#cd7ee6d8;
+     --chat-side-bg:#1c1c1f;
+     --input:#2a2a2c;
+     --i:#767578;
+     --name:#8d8c90;
+ }
+*{
+     padding:0;
+     margin:0;
+     box-sizing:border-box !important; 
+}
+
+
+body{
+     font-family: 'tajawal' , "Arial" !important ;
+     background: var(--bg-dark);
+     color:var(--text-light);
+     width: 100vw;
+     height: 100vh;
+}
+
+
+
+::selection{
+    background: var(--primary-pink);
+    color: #fff
+}
+
+::-webkit-scrollbar{
+     display: none;
+}
+
+
+ul{
+     list-style: none !important;
+}
+a{
+     text-decoration: none !important;
+}
+ 
+img{
+    object-fit: cover;
+}
+
+html{
+    scroll-behavior: smooth
+}

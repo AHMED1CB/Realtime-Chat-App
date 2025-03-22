@@ -1,0 +1,18 @@
+<?php
+
+$option = $argv[1];
+
+
+if (strtolower($option) === 'start'){
+
+     exec('PHP -S localhost:3000');
+
+}
+
+elseif (strtolower($option) === 'socket'){
+
+     echo  exec('PHP socket/socket.php');
+
+}else{
+     echo("Unknown Option : \"$option\"\n");
+}

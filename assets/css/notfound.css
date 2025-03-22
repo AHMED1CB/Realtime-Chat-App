@@ -1,0 +1,34 @@
+body{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+
+img{
+     width: 200px;
+}
+
+h2{
+     font-size: 30px;
+     margin: 20px 0;
+}
+
+
+h2 + a{
+     padding:8px ;
+     background: var(--primary-pink);
+     color: #fff;
+     border-radius: 12px;
+     width: 120px;
+     text-align: center;
+}
+
+
+.nfp{
+     font-size: 150px;
+     color: var(--primary-pink)
+}
